@@ -17,7 +17,7 @@
 		embedded_svc.settings.language = 'en-US'; //For example, enter 'en' or 'en-US'
 
 		embedded_svc.settings.defaultMinimizedText = 'Ask an Expert'; //(Defaults to Chat with an Expert)
-		embedded_svc.settings.disabledMinimizedText = 'Chat Agents are Offline'; //(Defaults to Agent Offline)
+		//embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
 
 		//embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
 		//embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
@@ -29,7 +29,7 @@
 		//};
 		//embedded_svc.settings.prepopulatedPrechatFields = {}; //Sets the auto-population of pre-chat form fields
 		//embedded_svc.settings.fallbackRouting = []; //An array of button IDs, user IDs, or userId_buttonId
-		//embedded_svc.settings.offlineSupportMinimizedText = '...'; //(Defaults to Contact Us)
+		embedded_svc.settings.offlineSupportMinimizedText = 'Chat Agents are Offline'; //(Defaults to Contact Us)
 	
 		//Disable contact record creation
 		//embedded_svc.settings.extraPrechatInfo = [{"entityFieldMaps":[{"doCreate":false,"doFind":true,"fieldName":"LastName","isExactMatch":true,"label":"Last Name"},{"doCreate":false,"doFind":true,"fieldName":"FirstName","isExactMatch":true,"label":"First Name"}, {"doCreate":false,"doFind":true,"fieldName":"Email","isExactMatch":true,"label":"Email"}],"entityName":"Contact","saveToTranscript":"Contact","showOnCreate":true}];
