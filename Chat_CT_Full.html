@@ -37,7 +37,9 @@
 		//embedded_svc.settings.extraPrechatInfo = [{"entityFieldMaps":[{"doCreate":false,"doFind":true,"fieldName":"LastName","isExactMatch":true,"label":"Last Name"},{"doCreate":false,"doFind":true,"fieldName":"FirstName","isExactMatch":true,"label":"First Name"}, {"doCreate":false,"doFind":true,"fieldName":"Email","isExactMatch":true,"label":"Email"}],"entityName":"Contact","saveToTranscript":"Contact","showOnCreate":true}];
 
 		//Populate Visitor email field on Chat Transcript
-		embedded_svc.settings.extraPrechatFormDetails = [{"label":"Email", "transcriptFields":["Visitor_Email__c"]}];
+		embedded_svc.settings.extraPrechatFormDetails = [{"label":"Email", "transcriptFields":["Visitor_Email__c"]},
+								 {"label": "Origin", "value": "Community", "displayToAgent": true}
+								];
 
 		 //Populate Visitor fields on Case
 		embedded_svc.settings.extraPrechatInfo = [{
