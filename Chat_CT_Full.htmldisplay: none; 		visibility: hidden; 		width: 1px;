@@ -12,7 +12,9 @@
 	}
 	
 	.embeddedServiceHelpButton .uiButton .helpButtonLabel{
-		
+		display: none;
+		visibility: hidden;
+		width: 1px;
 	}
 </style>
 
