@@ -1,21 +1,33 @@
 <html>
 <body>
-<style type='text/css'>
+<style type='text/css'>	
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #ff9000;
-		font-family: "Arial", sans-serif;
-		font-weight: bold;    	
-		font-size: 16px;
-	}
-	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #ff9000;
-	}
-	
-	.embeddedServiceHelpButton .uiButton .helpButtonLabel{
-		display: none;
-		visibility: hidden;
-		width: 1px;
-	}
+                background-color: #FFF;
+                border-radius: 10%;
+                min-width: 5em;
+               margin: 0 15px 15px 0;
+            }
+              .embeddedServiceHelpButton .helpButton .uiButton:focus {
+                outline: 1px solid #FFF;
+                border-radius: 10%;
+                min-width: 5em;
+            }
+              .embeddedServiceHelpButton .helpButton {
+                margin: 0 15px 25px 0;
+            }
+              .embeddedServiceHelpButton .helpButton .uiButton .embeddedServiceIcon {
+                margin: auto;
+		color: #3b5bb9;
+            }
+              .embeddedServiceHelpButton .embeddedServiceIcon::before {
+               font-size: 2.5em;
+            }
+              .embeddedServiceHelpButton .helpButton .uiButton .helpButtonLabel {
+                display: none;
+            }
+             .embeddedServiceLiveAgentStateChatAvatar.isLightningOutContext .agentIconColor0 {
+                background-color: #84bd00;
+            }
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
